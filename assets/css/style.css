@@ -1,0 +1,264 @@
+* {
+      box-sizing: border-box;
+}
+
+body{
+      background-image: url('../images/concrete.png')
+
+}
+
+#name{
+      font-size: 25px;
+      font-family: "Verdana";
+}
+
+.navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 0px;
+      z-index: 99;
+}
+
+.navbar-inverse .navbar-brand{
+      color : white;
+      font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+      color : white;
+      font-size: 18px;
+      font-weight: "bold";
+}
+
+
+#main-img {
+      background-image: url('../images/ls2.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-top: 270px;
+      padding-bottom: 270px;
+}
+
+
+#web-dev {
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+}
+
+#icons{
+      color: white;
+}
+
+.row{
+      padding-top: 10px;
+}
+
+a{
+      padding: 10px;
+      color: black;
+}
+
+#main-bio {
+      padding-left: 120px;
+      padding-right: 120px;
+}
+
+.title {
+      font-size: 35px;
+      font-weight: bold;
+      font-family: "Arial Black";
+}
+
+.article{
+      padding-top: 25px;
+      font-size: 30px;
+}
+
+#article{
+      font-size: 30px;
+      font-family: "Tahoma";
+}
+
+#end{
+    font-size: 30px;
+    color: #33BBFF;  
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 500px;
+}
+
+.parallax { 
+    background-image: url("../images/phone.jpg");
+    height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skillstitle{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: "Tahoma";
+      color: #33BBFF;
+}
+
+#img-container {
+      text-align: center;
+}
+
+#skills{
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 25px;
+}
+
+.skills-div {
+      padding: .75em;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2em 10em;
+}
+
+#skills-list {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      width: 880px;
+}
+
+#skills-list li {
+      float: left;
+      padding: 20px;
+}
+.tech-img {
+      width: 120px;
+      height: 120px;
+      padding: 5px;
+      box-shadow: 5px 5px 5px #888888;
+}
+
+.projects{
+      background-color: white;
+      border: 1px solid black;
+      box-shadow: 5px 5px 5px #888888;
+      margin: 10px;
+      width: 370px;
+      height: 400px;
+}
+
+#projectsDiv{
+      margin-top: 60px;
+}
+
+.project-head{
+      text-align: center;
+      font-weight: bold;
+}
+
+#proj-btn{
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 16px;
+      width: 100%;
+}
+
+.pro-descript{
+      text-align: center;
+}
+
+#img-div{
+      background-color: #F0F0F0;
+}
+
+#resume-img {
+      background-image: url('../images/lambo.jpg');
+      max-width: 100%;
+      width: 100%;
+      height: auto !important;
+      margin-top: 35px;
+}
+
+#resume-border{
+      text-align: center;
+      background-color: white;
+      border: 1px solid black;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      padding-bottom: 25px;
+      opacity: 0.9;
+}
+
+#resume{
+      font-weight: bold;
+}
+
+#resume-p{
+      font-size: 20px;
+}
+
+#myProjects{
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      font-family: "Tahoma";
+      color: #33BBFF;
+}
+
+#image-div{
+      margin-top: 60px;
+}
+
+.project-img{
+      width: 330px;
+      height: 180px;
+}
+
+#footer{
+      margin-top: 40px;
+      width: 100%;
+      background-color: #d9d9d9;
+}
+
+.smallFooter{
+      padding: 20px;
+      font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+
+     #skills-list {
+      width: 100%;
+      text-align: center
+     }
+
+      #resume-img {
+            background-image: url('../images/lambomed.jpg');
+            max-width: 100%;
+            width: 100%;
+            height: auto !important;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            background-repeat: no-repeat;
+      }
+}
+
+
