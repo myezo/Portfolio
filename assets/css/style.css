@@ -88,7 +88,6 @@ a{
 
 .article{
       padding-top: 25px;
-      font-size: 30px;
 }
 
 #article{
@@ -247,6 +246,9 @@ a{
 
 
 @media only screen and (max-width: 640px){
+  #article{
+    font-size: 20px;
+  }
   #web-dev{
     font-size: 30px;
   }
